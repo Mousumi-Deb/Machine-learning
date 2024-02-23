@@ -30,4 +30,32 @@ The project makes use of the following libraries:
 - **Metrics**: Various evaluation metrics are used such as Mean Squared Error, Mean Absolute Error, R-squared, and Cross-Validation scores.
 - **Visualizations**: Visual representations of the results, including scatter plots, regression plots, and error distributions.
 
+### Methods and Models
 
+- **Random Forest Classifier:** Employed a Random Forest Classifier with 100 decision trees. The model was trained using the `fit()` function and evaluated using metrics such as Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and R-squared (R^2).
+- **Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machine (SVM):** Tested these classifiers alongside Random Forest, and evaluated their performance metrics such as R^2 and accuracy score.
+- **Cross-Validation:** Employed k-cross-validation to assess the robustness of the models. Utilized the `cross_val_score()` function and plotted the results for all models.
+
+### Results and Analysis
+
+| Model                | Precision | Recall | Accuracy Score |
+|----------------------|-----------|--------|----------------|
+| Logistic Regression  | 0.89      | 0.90   | 0.89           |
+| Random Forest        | 0.92      | 0.92   | 0.92           |
+| KNN                  | 0.807     | 0.803  | 0.795          |
+| SVM                  | 0.87      | 0.86   | 0.87           |
+
+#### Analysis:
+
+- **Data Quality:** No missing values or outliers were found in the datasets.
+- **T-SNE Plot Observation:** Identified scattered distribution of digit 2 values in the plot.
+- **Model Performance:** Among the tested models, Random Forest Classifier with 100 trees yielded the highest accuracy score of 0.92.
+- **Conclusion:** Random Forest Classifier demonstrated superior accuracy and robustness compared to other models, making it the optimal choice for digit prediction tasks.
+
+## Conclusion
+
+In conclusion, the project successfully evaluated various machine learning models for digit recognition using the MNIST dataset. Through meticulous analysis and experimentation, Random Forest Classifier emerged as the top performer, achieving a precision of 0.92. This model can be reliably employed for digit recognition tasks with high accuracy and efficiency.
+
+## Future Work
+
+Future iterations of the project could explore additional feature engineering techniques, hyperparameter tuning, and ensemble methods to further enhance the performance of the models. Moreover, investigating alternative datasets and expanding the scope beyond digit recognition could provide valuable insights into broader pattern recognition tasks.
