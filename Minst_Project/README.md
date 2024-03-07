@@ -12,6 +12,7 @@ The project makes use of the following libraries:
 - **Matplotlib**: For creating visualizations and plots.
 
 ## Tasks Performed
+
 ### 1. Data Preprocessing
 - **Scaling**: The data is scaled using Min-Max and Standard scalers to normalize the feature values.
 - **Dimensionality Reduction**: Principal Component Analysis (PCA) is applied for feature reduction.
