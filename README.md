@@ -25,7 +25,7 @@ This project focuses on exploring the Stack Overflow Developer Survey data from 
 #### Key Steps:
 - Data Exploration: Analyzing the Stack Overflow survey data to understand the demographics, job roles, and salary distributions.
 - Data Preprocessing: Handling missing values, encoding categorical variables, and scaling features for modeling.
-- Model Building: Training machine learning models to predict salaries using features such as programming languages, years of experience, education level, etc.
+- Model Building: Training machine learning models to predict salaries using features such as Countries, years of experience, education level, etc.
 - Application Development: Creating an interactive web or desktop application where users can input their details and receive salary predictions based on the trained models.
 
 ## Getting Started
